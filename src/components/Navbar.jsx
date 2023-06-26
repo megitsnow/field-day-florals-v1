@@ -14,6 +14,7 @@ export default function NavBar() {
           <Nav>
             <Link to="about" className = "NavBarLink">About</Link>
             <Link to="services" className = "NavBarLink">Services</Link>
+            <Link to="portfolio" className = "NavBarLink">Portfolio</Link>
             <Link to="contact" className = "NavBarLink">Contact</Link>
           </Nav>
         </Navbar.Collapse>

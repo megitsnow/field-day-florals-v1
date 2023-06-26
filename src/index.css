@@ -1,7 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    color: red;
 }
 
 .heading {
@@ -12,6 +11,68 @@ body {
     font-weight: bold;
 }
 
+.formwidth {
+  width: 500px;
+}
+
+.formFont {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.picOneAbout {
+  left: 30vh;
+  transform: rotate(-.02turn);
+}
+
+.picTwoAbout {
+  left: 5vh;
+  top: 30vh;
+}
+
+
+
+
+
+.contactFormHeading {
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #DE3163;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.servicesImage {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  position: relative;
+  zoom: 25%;
+}
+
+.aboutPageImage {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+  zoom: 25%;
+  opacity: 0.9;
+}
+
+.servicesImageDiv {
+  height: 350px;
+}
+
+.aboutImageDiv {
+  height: 350px;
+  position: relative;
+}
+
 .aboutHomeHeading {
   color: #FFA701ff;
   font-size: 40px;
@@ -19,9 +80,25 @@ body {
   font-family: 'Barlow Condensed', sans-serif;
 }
 
+.centeredAbout {
+    position: absolute;
+    z-index: 2;
+    top:40%;
+    left: 15%;
+    color: white;
+    font-weight: bold;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+}
+
 .aboutHomeImage {
   width: auto;
   height: 475px;
+}
+
+.contactMeImage {
+  width: auto;
+  height: 600px;
 }
 
 p {
@@ -29,6 +106,10 @@ p {
   font-weight: 400;
   font-size: 20px;
   color: #343231
+}
+
+.contactInfoParagraph {
+  font-size: 15px;
 }
 
 .servicesButton {

@@ -1,5 +1,14 @@
+import FlowerImage from '../images/IMG_7002.jpg'
+
 export default function ServicesPage() {
     return(
-        <div id = "services">Services Page</div>
+        <div>
+            <div className = "aboutImageDiv">
+                <img src = {FlowerImage} className = "aboutPageImage"/>
+            </div>
+        </div>
+
+        
+
     )
 }
