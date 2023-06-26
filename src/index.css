@@ -1,13 +1,146 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: red;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.heading {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #F8C000ff;
+    font-size: 40px;
+    font-weight: bold;
 }
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #343231
+}
+
+.servicesButton {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  font-family: 'Barlow Condensed', sans-serif;
+  background-color: #F8C000ff;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  border: 3px solid #BE6B9Dff;
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.4);
+}
+
+.servicesButton:hover {
+  background-color: white;
+  font-weight: bold;
+  font-size: 30px;
+  color: #BE6B9Dff;
+  border: 3px solid #F8C000ff;
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.4);
+}
+
+
+.logo{
+    font-family: 'Shrikhand', cursive;
+    color: #DE3163 !important;
+}
+
+
+.logoPicture {
+    width: 100px;
+    height: 100px;
+}
+
+.navBar {
+    border-radius: 5px 15px 200px 15px/15px 225px 15px 255px;
+    border-bottom:solid 2px rgb(222, 49, 99, .8);
+    background-color: white;
+}
+
+.NavBarLink {
+    padding-right: 25px;
+    padding-left: 25px;
+    text-decoration: none;
+    color: #DE3163;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+
+}
+
+
+
+.welcomeImage {
+    max-width: 100%;
+    max-height: 80%;
+}
+
+.center {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    color: #f5f5f5;
+    background-color: #DE3163;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .offCenter {
+    position: absolute;
+    top: 48%;
+    left: 7%;
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    color: #f5f5f5;
+    background-color: #DE3163;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  /* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+    .center, .offCenter {
+      font-size: 48px;
+    }
+  }
+  /* If the screen size is smaller than 1200px, set the font-size to 80px */
+  @media (max-width: 1199.98px) {
+    .center, .offCenter {
+      font-size: 20px;
+    }
+  }
+
+    /* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+    .center {
+        top: 30%;
+        left: 5%;
+    }
+  }
+  /* If the screen size is smaller than 1200px, set the font-size to 80px */
+  @media (max-width: 1199.98px) {
+    .center {
+        top: 20%;
+        left: 5%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .offCenter {
+        top: 48%;
+        left: 7%;
+    }
+  }
+  /* If the screen size is smaller than 1200px, set the font-size to 80px */
+  @media (max-width: 1199.98px) {
+    .offCenter {
+        top: 30%;
+        left: 7%;
+    }
+  }
+
