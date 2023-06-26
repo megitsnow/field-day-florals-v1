@@ -14,11 +14,13 @@ export default function HomePage({photos, setting}) {
         <div>
         <HomeOpening/>
         <div className="d-flex flex-column justify-content-center align-items-center mb-4">
-        <h2 className = "heading">Wedding, Event & Corporate Florals</h2>
-        <p className = "text-center text-paragraph">From small events and corporate dinners to elopments and large weddings, we have your flower needs covered! </p>
+            <h2 className = "heading homePageText text-center">Wedding, Event & Corporate Florals</h2>
+            <p className = "text-center text-paragraph homePageText">From small events and corporate dinners to elopments and large weddings, we have your flower needs covered! Hello my name is Megan I am testing this to see how this goes with large amounts of text.</p>
         <button className = "servicesButton" onClick = {handleClick}>Services</button>
         </div>
-        <PhotoAlbum photos = {photos} layout = "masonry"/>
+        <div className = "photoCollage mb-4">
+            <PhotoAlbum photos = {photos} layout = "masonry"/>
+        </div>
         <WelcomeSection/>
         </div>
         </div>

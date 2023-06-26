@@ -12,6 +12,18 @@ body {
     font-weight: bold;
 }
 
+.aboutHomeHeading {
+  color: #FFA701ff;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.aboutHomeImage {
+  width: auto;
+  height: 475px;
+}
+
 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -32,7 +44,42 @@ p {
   box-shadow: 5px 5px 10px 2px rgba(0,0,0,.4);
 }
 
+.aboutButton {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  font-family: 'Barlow Condensed', sans-serif;
+  background-color: #FFA701ff;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  border: 3px solid #BE6B9Dff;
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.4);
+}
+
 .servicesButton:hover {
+  background-color: white;
+  font-weight: bold;
+  font-size: 30px;
+  color: #BE6B9Dff;
+  border: 3px solid #FFA701ff;
+  box-shadow: 5px 5px 10px 2px rgba(0,0,0,.4);
+}
+
+.homePageText {
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  max-width: 80%;
+  overflow-wrap: break-word;
+}
+
+.photoCollage {
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutButton:hover {
   background-color: white;
   font-weight: bold;
   font-size: 30px;
